@@ -7,16 +7,26 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
-    /* color: #f9faf8; */
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bolder;
     color: #f9faf8;
 }
 
-.right-links, .secondary-text {
+.right-links {
+    display: flex;
+    gap: 16px ;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -47,6 +57,7 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
 }
@@ -59,5 +70,6 @@ ul {
 
 .container {
     display: flex;
+    flex-direction: column;
     flex: 1;
 }
