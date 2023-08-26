@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    /* color: #f9faf8; */
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.right-links, .secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content1 {
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.content2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.content3 {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
