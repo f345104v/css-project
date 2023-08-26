@@ -73,3 +73,9 @@ ul {
     flex-direction: column;
     flex: 1;
 }
+
+img {
+    background-color: #1f2937;
+    width: 300px;
+    height: auto;
+}
