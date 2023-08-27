@@ -41,7 +41,9 @@ body {
 .content2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    display: flex;
+    align-items: center;
+    flex-direction: inherit;
 }
 
 .content3 {
@@ -62,6 +64,10 @@ body {
     color: #e5e7eb;
 }
 
+div {
+    display: flex;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -76,10 +82,19 @@ ul {
 
 img {
     /* background-color: #1f2937; */
-    width: 300px;
+    width: auto;
     height: auto;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    font-size: 18px;
 }
