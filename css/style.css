@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(241, 235, 216);
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -97,4 +97,11 @@ img {
     flex-direction: column;
     max-width: 200px;
     font-size: 18px;
+}
+
+.posterborder {
+    background-color: rgb(241, 235, 216);
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
 }
