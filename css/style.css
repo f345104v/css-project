@@ -38,6 +38,7 @@ body {
     color: #f9faf8;
     align-items: center;
     padding: 50px;
+    gap: 50px;
 }
     .hero {
         display: flex;
